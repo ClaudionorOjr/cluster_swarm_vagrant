@@ -28,6 +28,17 @@ Necessária à instalação da **[Virtual Box](https://www.virtualbox.org/)** e 
 
 - Vagrant é uma ferramenta para automatizar a criação de múltiplas máquinas virtual, utilizando de ferramentas de virtualização já conhecidas, como a Virtual Box, em uso nesse caso.
 
+```ssh
+# Para subir as máquias virtuais
+$ vagrant up
+
+# Alternar entre nós
+$ vagrant ssh nome_no
+
+# Apagar máquinas virtuais
+$ vagrant destroy
+```
+
 **Para acessar o servidor Apache:**
 
 - Acesse o ip no navegador: `10.0.18.11:80`
